@@ -1,0 +1,23 @@
+/*
+  Project name(项目名称)：CSS_border_image 
+  File name(文件名): t4
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/2/4 
+  Time(创建时间)： 21:52
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+div {
+    width: 200px;
+    border: 27px solid;
+    padding: 10px;
+    margin: 30px 0px 0px 30px;
+    border-image-source: url(t.jpg);
+    border-image-slice: 27;
+    border-image-outset: 25px;
+    background-color: yellow;
+}
